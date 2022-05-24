@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+    }
+    body{
+        background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./image.jpg);
+        background-size: cover;
+    }
+    
+    .discount{
+            width: 430px;
+            height: 250px;
+            margin: 8% auto;
+            background: #fff;
+            border-radius: 5px;
+            position: relative;
+    }  
+    .discount_1 button{
+        width: 110px;
+        height: 35px;
+        margin-left: 150px;
+        margin-top: 100px;
+        background: linear-gradient( to right, #ff105f, #ffad06);
+        border-radius: 30px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        
+        
+    }
+    .discount_1 button a{
+            text-decoration: none;
+            color: #000;
+    }
+    .content form input{
+        margin-top: 20px;
+        flex: 1;
+        padding:0 20px ;
+        font-size: 18px;
+        margin-left: 10px;
+        border: 2px solid;
+        width: 120px;
+        height: 45px;
+    }
+    .content form button{
+        background: linear-gradient( to right, #ff105f, #ffad06);
+        margin-left: 30px;
+        height: 45px;
+    }

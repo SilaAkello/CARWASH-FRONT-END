@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <title>Car Wash Homepage</title>
+        <link rel="stylesheet" href="homepagecss.css">
+    </head>
+    <body><div class="logo">
+        <img src="./1.png">
+        <h4>CARWASH NAME</h4>
+   
+        <h3>
+            <p>Date: <span id="date"></span></p>
+
+            <script>
+            var d = new Date();
+            document.getElementById("date").innerHTML = d.toLocaleString();
+            </script></h3>
+       </div>
+       
+        <div class="header">
+            
+
+            <button><a href="carwash.html">CARWASH</a></button>
+            <button>LOO</button>
+            <button>WATERSALE</button>
+            <button>OTHERS</button>
+      
+      
+        </div>
+      
+
+    </body>
+    <script style="background-color: white;">
+        var currentDate = new Date();
+        var month = currentDate.getMonth();
+        var day = currentDate.getDate();
+        var year = currentDate.getFullYear();
+        var fullDate = month + "/" +  day +"/"+ year;
+         document.write(fullDate);
+    </script>
+  
+      
+    
+    
+</html>
